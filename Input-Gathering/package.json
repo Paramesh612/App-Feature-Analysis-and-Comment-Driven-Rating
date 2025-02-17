@@ -1,0 +1,16 @@
+{
+  "name": "review_collection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "google-play-scraper": "^10.0.1"
+  }
+}
