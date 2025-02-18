@@ -1,3 +1,4 @@
+// jsonToCsv.js
 import fs from 'fs';
 import { parse } from 'json2csv';
 
@@ -28,3 +29,6 @@ function jsonToCsv(jsonData, selectedFields, outputFileName) {
     }
   });
 }
+
+// Export the function for use in other files
+export { jsonToCsv };
