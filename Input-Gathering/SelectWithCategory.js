@@ -56,4 +56,4 @@ async function fetchAndSaveReviews(numApps, numReviews, category) {
 }
 
 // fetchAndSaveReviews(numApps, numReviews, category)
-fetchAndSaveReviews(100, 10000, "SHOPPING");
+fetchAndSaveReviews(100, 10000, "MUSIC_AND_AUDIO");
