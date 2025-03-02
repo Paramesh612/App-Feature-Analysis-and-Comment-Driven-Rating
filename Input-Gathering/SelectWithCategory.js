@@ -56,8 +56,4 @@ async function fetchAndSaveReviews(numApps, numReviews, category) {
 }
 
 // fetchAndSaveReviews(numApps, numReviews, category)
-<<<<<<< Updated upstream
-fetchAndSaveReviews(100, 10000, "WEATHER");
-=======
-fetchAndSaveReviews(200, 10000, "GAME_ACTION");
->>>>>>> Stashed changes
+fetchAndSaveReviews(100, 10000, "SHOPPING");
