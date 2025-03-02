@@ -56,4 +56,4 @@ async function fetchAndSaveReviews(numApps, numReviews, category) {
 }
 
 // fetchAndSaveReviews(numApps, numReviews, category)
-fetchAndSaveReviews(100, 1000, "WEATHER");
+fetchAndSaveReviews(100, 10000, "WEATHER");

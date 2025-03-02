@@ -21,7 +21,7 @@ function jsonToCsv(jsonData, selectedFields, outputFileName) {
   const csv = parse(filteredData);
 
   // Save the CSV data to a file
-  fs.writeFile(outputFileName, csv, (err) => {
+  fs.writeFile('Input_CSV/'+outputFileName, csv, (err) => {
     if (err) {
       console.error('Error writing CSV file:', err);
     } else {
