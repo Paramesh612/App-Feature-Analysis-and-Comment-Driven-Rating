@@ -52,4 +52,4 @@ async function fetchReviewsByAppName(appName, numReviews) {
 }
 
 // Example usage: Fetch reviews for "Instagram"
-fetchReviewsByAppName("Instagram",  Number.POSITIVE_INFINITY);
+fetchReviewsByAppName("Photo video maker with music",  8000);

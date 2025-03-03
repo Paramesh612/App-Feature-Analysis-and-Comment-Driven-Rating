@@ -17,6 +17,9 @@ function jsonToCsv(jsonData, selectedFields, outputFileName) {
     }, {});
   });
 
+  outputFileName = outputFileName.replace(':', '_');
+
+
   // Convert filtered data to CSV
   const csv = parse(filteredData);
 
