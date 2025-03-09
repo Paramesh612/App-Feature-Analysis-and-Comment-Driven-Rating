@@ -52,4 +52,4 @@ async function fetchReviewsByAppName(appName, numReviews) {
 }
 
 // Example usage: Fetch reviews for "Instagram"
-fetchReviewsByAppName("Adobe Scan: PDF Scanner, OCR",  15000);
+fetchReviewsByAppName("Paytm Money: Stocks MF, IPO",  15000);
